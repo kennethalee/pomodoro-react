@@ -1,12 +1,28 @@
-# React + Vite
+# Pomodoro Timer ⏲️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, responsive Pomodoro timer built with **React** and **Tailwind CSS**.  
+Use it to structure your work sessions, track breaks, and stay productive—on desktop or mobile.
 
-Currently, two official plugins are available:
+> 📍 **Project brief**: <https://roadmap.sh/projects/pomodoro-timer>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Work / Short Break / Long Break** presets (25 / 5 / 15 min by default)
+- Start / Stop / Resume & Skip controls
+- Session counter (long break after every four Pomodoros)
+- Audio alert when a session ends
+- Responsive card-style UI with accessible focus states
+
+---
+
+## Tech Stack
+
+| Layer         | Library      |
+| ------------- | ------------ | ------- |
+| Front-end     | React 18     |
+| Styling       | Tailwind CSS | DaisyUI |
+| Icons / Audio | local MP3    |
+
+---
