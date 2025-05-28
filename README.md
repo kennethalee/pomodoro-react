@@ -4,6 +4,7 @@ A lightweight, responsive Pomodoro timer built with **React** and **Tailwind CSS
 Use it to structure your work sessions, track breaks, and stay productive—on desktop or mobile.
 
 > 📍 **Project brief**: <https://roadmap.sh/projects/pomodoro-timer>
+> 📍 **Preview it here**: <https://pomodoro-react-nine.vercel.app>
 
 ---
 
@@ -19,10 +20,8 @@ Use it to structure your work sessions, track breaks, and stay productive—on d
 
 ## Tech Stack
 
-| Layer         | Library      |
-| ------------- | ------------ | ------- |
-| Front-end     | React 18     |
-| Styling       | Tailwind CSS | DaisyUI |
-| Icons / Audio | local MP3    |
+Front-end: React 19
+Styling: Tailwind CSS, DaisyUI
+Audio: local mp3
 
 ---
